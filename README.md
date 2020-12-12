@@ -21,3 +21,5 @@ A hidden security system which can be installed on the existing door lock. It co
 **Continuity of the system depends on the continuous supply of electricity and its connectivity to the internet**
 - **Issue:** The security features would not work in case the internet or electricity is cut off. 
 - **Solution:** Changed the communication protocol from *http* to *mqtt* to leverage the last will and testiment feature of mqtt. This problem was tackled by sending an alert incase of an abrupt disconnection of the node. In addition to that, a battery backup feature was provided to restart the system incase of power outage or intentional power cut.
+
+### 🚀 Watch the [demo](https://youtu.be/jy2Ne9nHwf0)
