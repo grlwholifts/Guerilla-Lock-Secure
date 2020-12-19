@@ -1,13 +1,13 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
  
-const char* ssid = "tqb-WiFi";
-const char* password =  "thingQbator123";
-const char* mqttServer = "192.168.1.147";
+const char* ssid = "YOUR_SSID";
+const char* password =  "YOUR_PASS";
+const char* mqttServer = "Mqtt host";
 const int mqttPort = 1883;
-const char* mqttUser = "muskan";
-const char* mqttPassword = "muskan";
-const char* topic = "test";
+const char* mqttUser = "username";
+const char* mqttPassword = "password";
+const char* topic = "topic";
 const int buzzer = D6;
 const int PIEZO_PIN = A0;
 const int lock= D1;
